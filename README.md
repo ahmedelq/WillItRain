@@ -11,13 +11,20 @@ The data was split into 90% Training data, 5% validation data and 5% testing dat
 
 I designed a neural network model with 6 layers sperated by ReLU activations, batch normalization and dropouts, except for the output layer which I used a sigmoid function.  I also included embeddings to encode categorical data into trainable vectors. Finally I used Adam optimizer with cross entropy loss. 
 
-Results: 
+ANN Results: 
 
 |          | Training | Validation | Testing  |
 | -------- | -------- | ---------- | -------- |
 | Loss     | 0.339279 | 0.365065   | 0.362375 |
 | Accuracy | 84.71%   | 84.23%     | 84.02%   |
 | F1       | 0.8428   | 0.6689     | 0.6517   |
+
+Random Forest Tree classifier results:
+|          | Training | Validation | Testing  |
+| -------- | -------- | ---------- | -------- |
+| Accuracy | 100%     | 84.89%     | 85.58%   |
+| F1       | 1.0      | 0.6473     | 0.6448   |
+
 
 ![img](https://i.imgur.com/5wLuA2z.png)
 
